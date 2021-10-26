@@ -1,7 +1,5 @@
-const getName = () => {
-  const mia = { name: 'mia', age: 1 };
-
-  return mia.name;
+const getName = ({ name }) => {
+  return name;
 };
 
 module.exports = getName;
