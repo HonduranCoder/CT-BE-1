@@ -1,4 +1,4 @@
-const capitalizeAndFilter = require('./cp.js');
+const capitalizeAndFilter = require('./cf.js');
 
 describe('capitalizeAndFilter', () => {
   it('takes an array of strings capitalize all strings and filter out any string that starts with the letter F/f.', () => {
@@ -6,3 +6,4 @@ describe('capitalizeAndFilter', () => {
 
     expect(capitalizeAndFilter(array)).toEqual(['MIA', 'DOOGIE']);
   });
+});
