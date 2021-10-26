@@ -1,9 +1,9 @@
 const getName = require('./getname.js');
 
-describe('getname', () => {
+describe('getName', () => {
   it('returns the name property of an object', () => {
-    const name = 'Mia';
+    const name = { name: 'mia' };
 
-    expect(getName(name)).toEqual({ name: Mia });
+    expect(getName(name)).toEqual('mia');
   });
 });
