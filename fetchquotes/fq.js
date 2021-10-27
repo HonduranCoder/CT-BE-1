@@ -6,8 +6,8 @@ const fetchQuotes = () => {
     .then((data) =>
       data.map((item) => {
         return {
-          character: item.character,
-          quote: item.quote,
+          name: item.character,
+          text: item.quote,
           image: item.image,
         };
       })
